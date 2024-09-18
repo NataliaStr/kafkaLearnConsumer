@@ -9,6 +9,7 @@ import lombok.*;
 @Builder
 @Getter
 @Setter
+@ToString
 public class LibraryEvent {
     @Id
     @GeneratedValue
